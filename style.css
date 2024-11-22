@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.titleOfGame {
+    font-size: 72px;
+    font-weight: 400;
+    color: #766D65;
+    margin-bottom: 50px;
+}
+
+canvas {
+    /* border: 2px dashed #766D65; */
+    background-color: #BBAC9F;
+    border-radius: 10px;
+}
